@@ -10,26 +10,26 @@ export const metadata: Metadata = {
 
 export default function AffiliateHinweisPage() {
   return (
-    <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
+    <div style={{ background: "#f8fafc", minHeight: "100vh", paddingTop: "90px" }}>
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "3rem 1.5rem" }}>
-        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#fff", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
+        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#0f172a", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
           Affiliate-Hinweis
         </h1>
-        <p style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.85rem", marginBottom: "3rem" }}>
+        <p style={{ color: "#94a3b8", fontSize: "0.85rem", marginBottom: "3rem" }}>
           Transparenz ist uns wichtig – hier erklären wir, wie wir Geld verdienen.
         </p>
 
         <div
           style={{
             background: "linear-gradient(135deg, rgba(14,165,233,0.08), rgba(14,165,233,0.03))",
-            border: "1px solid rgba(14,165,233,0.2)",
+            border: "1px solid #bfdbfe",
             borderRadius: "1rem",
             padding: "1.5rem",
             marginBottom: "2.5rem",
           }}
         >
           <p style={{ color: "rgba(255,255,255,0.7)", fontSize: "0.9rem", lineHeight: 1.75 }}>
-            <strong style={{ color: "#7dd3fc" }}>Kurz zusammengefasst:</strong> Diese Website enthält
+            <strong style={{ color: "#2563eb" }}>Kurz zusammengefasst:</strong> Diese Website enthält
             Partnerlinks. Wenn du über diese Links einen Vertrag abschließt, erhalten wir eine Provision
             vom Anbieter. Für dich entstehen dabei keinerlei zusätzliche Kosten – im Gegenteil,
             du profitierst vom gleichen (oder besseren) Preis wie bei direktem Abschluss.
@@ -71,16 +71,16 @@ export default function AffiliateHinweisPage() {
           },
         ].map((s) => (
           <div key={s.title} style={{ marginBottom: "2rem" }}>
-            <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.05rem", color: "#7dd3fc", marginBottom: "0.75rem", paddingBottom: "0.5rem", borderBottom: "1px solid rgba(14,165,233,0.15)" }}>
+            <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.05rem", color: "#2563eb", marginBottom: "0.75rem", paddingBottom: "0.5rem", borderBottom: "1px solid #dbeafe" }}>
               {s.title}
             </h2>
-            <p style={{ color: "rgba(255,255,255,0.6)", fontSize: "0.9rem", lineHeight: 1.8 }}>
+            <p style={{ color: "#475569", fontSize: "0.9rem", lineHeight: 1.8 }}>
               {s.content}
             </p>
           </div>
         ))}
 
-        <p style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+        <p style={{ color: "#cbd5e1", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid #e2e8f0" }}>
           Stand: {new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" })}
         </p>
       </div>

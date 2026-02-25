@@ -10,12 +10,12 @@ export const metadata: Metadata = {
 
 export default function CookieRichtliniePage() {
   return (
-    <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
+    <div style={{ background: "#f8fafc", minHeight: "100vh", paddingTop: "90px" }}>
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "3rem 1.5rem" }}>
-        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#fff", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
+        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#0f172a", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
           Cookie-Richtlinie
         </h1>
-        <p style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.85rem", marginBottom: "3rem" }}>
+        <p style={{ color: "#94a3b8", fontSize: "0.85rem", marginBottom: "3rem" }}>
           Informationen gemäß DSGVO & ePrivacy-Richtlinie
         </p>
 
@@ -47,27 +47,27 @@ export default function CookieRichtliniePage() {
           },
         ].map((s) => (
           <div key={s.title} style={{ marginBottom: "2.5rem" }}>
-            <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.05rem", color: "#7dd3fc", marginBottom: "0.875rem", paddingBottom: "0.5rem", borderBottom: "1px solid rgba(14,165,233,0.15)" }}>
+            <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.05rem", color: "#2563eb", marginBottom: "0.875rem", paddingBottom: "0.5rem", borderBottom: "1px solid #dbeafe" }}>
               {s.title}
             </h2>
-            {s.content && <p style={{ color: "rgba(255,255,255,0.6)", fontSize: "0.9rem", lineHeight: 1.8 }}>{s.content}</p>}
+            {s.content && <p style={{ color: "#475569", fontSize: "0.9rem", lineHeight: 1.8 }}>{s.content}</p>}
             {s.table && (
               <div style={{ overflowX: "auto" }}>
                 <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.82rem" }}>
                   <thead>
                     <tr>
                       {["Name", "Typ", "Zweck", "Speicherdauer"].map((h) => (
-                        <th key={h} style={{ padding: "0.625rem 0.875rem", textAlign: "left", color: "rgba(255,255,255,0.5)", fontWeight: 600, borderBottom: "1px solid rgba(255,255,255,0.08)", whiteSpace: "nowrap" }}>{h}</th>
+                        <th key={h} style={{ padding: "0.625rem 0.875rem", textAlign: "left", color: "#64748b", fontWeight: 600, borderBottom: "1px solid rgba(255,255,255,0.08)", whiteSpace: "nowrap" }}>{h}</th>
                       ))}
                     </tr>
                   </thead>
                   <tbody>
                     {s.table.map((row, i) => (
                       <tr key={i} style={{ borderBottom: "1px solid rgba(255,255,255,0.05)" }}>
-                        <td style={{ padding: "0.625rem 0.875rem", color: "#7dd3fc", fontFamily: "monospace", fontSize: "0.78rem" }}>{row.name}</td>
-                        <td style={{ padding: "0.625rem 0.875rem", color: "rgba(255,255,255,0.6)" }}>{row.typ}</td>
-                        <td style={{ padding: "0.625rem 0.875rem", color: "rgba(255,255,255,0.6)" }}>{row.zweck}</td>
-                        <td style={{ padding: "0.625rem 0.875rem", color: "rgba(255,255,255,0.6)", whiteSpace: "nowrap" }}>{row.dauer}</td>
+                        <td style={{ padding: "0.625rem 0.875rem", color: "#2563eb", fontFamily: "monospace", fontSize: "0.78rem" }}>{row.name}</td>
+                        <td style={{ padding: "0.625rem 0.875rem", color: "#475569" }}>{row.typ}</td>
+                        <td style={{ padding: "0.625rem 0.875rem", color: "#475569" }}>{row.zweck}</td>
+                        <td style={{ padding: "0.625rem 0.875rem", color: "#475569", whiteSpace: "nowrap" }}>{row.dauer}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -77,7 +77,7 @@ export default function CookieRichtliniePage() {
           </div>
         ))}
 
-        <p style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+        <p style={{ color: "#cbd5e1", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid #e2e8f0" }}>
           Stand: {new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" })}
         </p>
       </div>

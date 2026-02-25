@@ -41,14 +41,14 @@ const articles = [
 
 export default function BlogPage() {
   return (
-    <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
+    <div style={{ background: "#f8fafc", minHeight: "100vh", paddingTop: "90px" }}>
       <div style={{ maxWidth: "1280px", margin: "0 auto", padding: "3rem 1.5rem" }}>
         <div style={{ marginBottom: "3rem" }}>
           <div className="badge badge-blue" style={{ marginBottom: "1rem" }}>Ratgeber & Tipps</div>
-          <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3rem)", color: "#fff", letterSpacing: "-0.03em", marginBottom: "0.75rem" }}>
+          <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3rem)", color: "#0f172a", letterSpacing: "-0.03em", marginBottom: "0.75rem" }}>
             Versicherungs-<span className="gradient-text">Ratgeber</span>
           </h1>
-          <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "1rem" }}>
+          <p style={{ color: "#64748b", fontSize: "1rem" }}>
             Expertenwissen rund um Versicherungen – verständlich erklärt.
           </p>
         </div>
@@ -64,12 +64,12 @@ export default function BlogPage() {
               <div className="glass glass-hover" style={{ borderRadius: "1.25rem", padding: "1.75rem", height: "100%", cursor: "pointer" }}>
                 <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "1rem" }}>
                   <span className="badge badge-blue">{article.category}</span>
-                  <span style={{ color: "rgba(255,255,255,0.35)", fontSize: "0.75rem" }}>{article.readTime} Lesezeit</span>
+                  <span style={{ color: "#94a3b8", fontSize: "0.75rem" }}>{article.readTime} Lesezeit</span>
                 </div>
-                <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.1rem", color: "#fff", marginBottom: "0.625rem", lineHeight: 1.35 }}>
+                <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.1rem", color: "#0f172a", marginBottom: "0.625rem", lineHeight: 1.35 }}>
                   {article.title}
                 </h2>
-                <p style={{ color: "rgba(255,255,255,0.5)", fontSize: "0.875rem", lineHeight: 1.65, marginBottom: "1.25rem" }}>
+                <p style={{ color: "#64748b", fontSize: "0.875rem", lineHeight: 1.65, marginBottom: "1.25rem" }}>
                   {article.excerpt}
                 </p>
                 <div style={{ display: "flex", alignItems: "center", gap: "0.375rem", color: "#38bdf8", fontSize: "0.875rem", fontWeight: 600 }}>

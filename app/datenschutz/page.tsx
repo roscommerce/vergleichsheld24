@@ -11,10 +11,10 @@ export const metadata: Metadata = {
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div style={{ marginBottom: "2.75rem" }}>
-      <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.15rem", color: "#7dd3fc", marginBottom: "1rem", paddingBottom: "0.5rem", borderBottom: "1px solid rgba(14,165,233,0.15)" }}>
+      <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.15rem", color: "#2563eb", marginBottom: "1rem", paddingBottom: "0.5rem", borderBottom: "1px solid #dbeafe" }}>
         {title}
       </h2>
-      <div style={{ color: "rgba(255,255,255,0.6)", fontSize: "0.9rem", lineHeight: 1.8 }}>
+      <div style={{ color: "#475569", fontSize: "0.9rem", lineHeight: 1.8 }}>
         {children}
       </div>
     </div>
@@ -32,25 +32,25 @@ function SubSection({ title, children }: { title: string; children: React.ReactN
 
 export default function DatenschutzPage() {
   return (
-    <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
+    <div style={{ background: "#f8fafc", minHeight: "100vh", paddingTop: "90px" }}>
       <div style={{ maxWidth: "800px", margin: "0 auto", padding: "3rem 1.5rem" }}>
-        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#fff", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
+        <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 2.8rem)", color: "#0f172a", letterSpacing: "-0.03em", marginBottom: "0.5rem" }}>
           Datenschutzerklärung
         </h1>
-        <p style={{ color: "rgba(255,255,255,0.3)", fontSize: "0.85rem", marginBottom: "3rem" }}>
+        <p style={{ color: "#94a3b8", fontSize: "0.85rem", marginBottom: "3rem" }}>
           Gemäß DSGVO, BDSG und TMG
         </p>
 
         <Section title="1. Verantwortlicher">
           <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
-          <div style={{ marginTop: "0.75rem", padding: "1rem 1.25rem", background: "rgba(255,255,255,0.04)", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "0.75rem" }}>
-            <p style={{ fontWeight: 600, color: "#fff" }}>Sven Rosenthal</p>
+          <div style={{ marginTop: "0.75rem", padding: "1rem 1.25rem", background: "#f8fafc", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "12px" }}>
+            <p style={{ fontWeight: 600, color: "#0f172a" }}>Sven Rosenthal</p>
             <p>In der Landwehr 21</p>
             <p>34376 Immenhausen OT Holzhausen</p>
             <p>Deutschland</p>
             <p style={{ marginTop: "0.5rem" }}>
               E-Mail:{" "}
-              <a href="mailto:info@rosenthal-e-commerce.de" style={{ color: "#7dd3fc", textDecoration: "none" }}>
+              <a href="mailto:info@rosenthal-e-commerce.de" style={{ color: "#2563eb", textDecoration: "none" }}>
                 info@rosenthal-e-commerce.de
               </a>
             </p>
@@ -69,7 +69,7 @@ export default function DatenschutzPage() {
           </ul>
           <p style={{ marginTop: "1rem" }}>
             Zuständige Aufsichtsbehörde: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit,
-            Postfach 3163, 65021 Wiesbaden, <a href="https://www.datenschutz.hessen.de" target="_blank" rel="noopener noreferrer" style={{ color: "#7dd3fc", textDecoration: "none" }}>www.datenschutz.hessen.de</a>
+            Postfach 3163, 65021 Wiesbaden, <a href="https://www.datenschutz.hessen.de" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", textDecoration: "none" }}>www.datenschutz.hessen.de</a>
           </p>
         </Section>
 
@@ -94,7 +94,7 @@ export default function DatenschutzPage() {
             </p>
             <p style={{ marginTop: "0.5rem" }}>
               Netlify ist unter dem EU-US Data Privacy Framework zertifiziert. Weitere Informationen:
-              <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: "#7dd3fc", textDecoration: "none", marginLeft: "0.25rem" }}>
+              <a href="https://www.netlify.com/privacy/" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", textDecoration: "none", marginLeft: "0.25rem" }}>
                 Netlify Privacy Policy
               </a>
             </p>
@@ -112,7 +112,7 @@ export default function DatenschutzPage() {
             </ul>
             <p style={{ marginTop: "0.75rem" }}>
               Du kannst deine Cookie-Einstellungen jederzeit über den{" "}
-              <a href="/cookie-richtlinie" style={{ color: "#7dd3fc", textDecoration: "none" }}>Cookie-Banner</a>{" "}
+              <a href="/cookie-richtlinie" style={{ color: "#2563eb", textDecoration: "none" }}>Cookie-Banner</a>{" "}
               anpassen oder über die Einstellungen deines Browsers verwalten.
             </p>
           </SubSection>
@@ -140,7 +140,7 @@ export default function DatenschutzPage() {
             </p>
             <p style={{ marginTop: "0.5rem" }}>
               Datenschutz Tarifcheck:{" "}
-              <a href="https://www.tarifcheck.de/datenschutz/" target="_blank" rel="noopener noreferrer" style={{ color: "#7dd3fc", textDecoration: "none" }}>
+              <a href="https://www.tarifcheck.de/datenschutz/" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", textDecoration: "none" }}>
                 tarifcheck.de/datenschutz
               </a>
             </p>
@@ -170,7 +170,7 @@ export default function DatenschutzPage() {
             </p>
             <p style={{ marginTop: "0.5rem" }}>
               Weitere Informationen:{" "}
-              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: "#7dd3fc", textDecoration: "none" }}>
+              <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" style={{ color: "#2563eb", textDecoration: "none" }}>
                 Google Datenschutzerklärung
               </a>
             </p>
@@ -203,7 +203,7 @@ export default function DatenschutzPage() {
           </p>
         </Section>
 
-        <p style={{ color: "rgba(255,255,255,0.2)", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid rgba(255,255,255,0.06)" }}>
+        <p style={{ color: "#cbd5e1", fontSize: "0.75rem", paddingTop: "1.5rem", borderTop: "1px solid #e2e8f0" }}>
           Stand: {new Date().toLocaleDateString("de-DE", { month: "long", year: "numeric" })}
         </p>
       </div>
