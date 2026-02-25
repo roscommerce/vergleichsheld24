@@ -1,3 +1,5 @@
+"use client";
+
 // ================================================================
 // Universelle Seiten-Komponente für alle Tarifcheck-Kategorien
 // Wird von allen Unterseiten genutzt – kein Duplikat-Code
@@ -290,14 +292,7 @@ export default function CategoryPage({ item }: CategoryPageProps) {
                         fontWeight: 500,
                         transition: "all 0.15s",
                       }}
-                      onMouseEnter={(e) => {
-                        (e.currentTarget as HTMLElement).style.background = "rgba(14,165,233,0.08)";
-                        (e.currentTarget as HTMLElement).style.color = "#7dd3fc";
-                      }}
-                      onMouseLeave={(e) => {
-                        (e.currentTarget as HTMLElement).style.background = "transparent";
-                        (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.65)";
-                      }}
+                      className="related-link"
                     >
                       <span>{r.icon}</span>
                       {r.label}
@@ -314,6 +309,10 @@ export default function CategoryPage({ item }: CategoryPageProps) {
         @media (max-width: 900px) {
           .page-grid { grid-template-columns: 1fr !important; }
           .sidebar { order: -1; }
+        }
+        .related-link:hover {
+          background: rgba(14,165,233,0.08) !important;
+          color: #7dd3fc !important;
         }
       `}</style>
     </div>

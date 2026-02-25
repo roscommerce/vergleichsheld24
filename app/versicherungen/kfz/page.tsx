@@ -372,14 +372,7 @@ export default function KfzPage() {
                     fontWeight: 500,
                     transition: "all 0.15s",
                   }}
-                  onMouseEnter={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = "rgba(14,165,233,0.08)";
-                    (e.currentTarget as HTMLElement).style.color = "#7dd3fc";
-                  }}
-                  onMouseLeave={(e) => {
-                    (e.currentTarget as HTMLElement).style.background = "transparent";
-                    (e.currentTarget as HTMLElement).style.color = "rgba(255,255,255,0.65)";
-                  }}
+                  className="related-link"
                 >
                   <span>{l.icon}</span>
                   {l.label}
