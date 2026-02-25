@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
-import AdSlot from "@/components/AdSlot";
 
 export const dynamic = "force-dynamic";
 
@@ -326,12 +325,6 @@ export default function KfzPage() {
 
 
           {/* Ad Slot Sidebar */}
-          <AdSlot
-            slot="1122334455"
-            format="vertical"
-            style={{ height: "300px" }}
-            label="Werbung"
-          />
 
 
           {/* Other insurance links */}

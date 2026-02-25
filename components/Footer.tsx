@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer
       style={{
-        background: "#070b16",
+        background: "#1e293b",
         borderTop: "1px solid rgba(255,255,255,0.06)",
         padding: "4rem 1.5rem 2rem",
         marginTop: "5rem",
@@ -35,7 +35,7 @@ export default function Footer() {
                 style={{
                   width: "32px",
                   height: "32px",
-                  background: "linear-gradient(135deg, #0ea5e9, #0284c7)",
+                  background: "linear-gradient(135deg, #2563eb, #1d4ed8)",
                   borderRadius: "8px",
                   display: "flex",
                   alignItems: "center",

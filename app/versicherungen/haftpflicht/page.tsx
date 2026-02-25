@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
-import AdSlot from "@/components/AdSlot";
 
 export const dynamic = "force-dynamic";
 
@@ -67,14 +66,3 @@ export default function HaftpflichtPage() {
 
 
         <div style={{ marginBottom: "3rem" }}>
-          <AdSlot slot="2233445566" format="horizontal" style={{ height: "90px" }} />
-        </div>
-
-
-        <div style={{ textAlign: "center" }}>
-          <Link href="/" className="btn-ghost">← Zurück zur Übersicht</Link>
-        </div>
-      </div>
-    </div>
-  );
-}
