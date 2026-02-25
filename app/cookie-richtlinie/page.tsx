@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Cookie-Richtlinie",
   description: "Informationen über den Einsatz von Cookies auf Vergleichsheld24",

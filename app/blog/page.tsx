@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-
 export const dynamic = "force-dynamic";
+
+
 export const metadata: Metadata = {
   title: "Ratgeber & Blog – Versicherungswissen für jeden",
   description: "Tipps, Ratgeber und Neuigkeiten rund um Versicherungen. Spare Geld, verstehe deine Verträge und finde den besten Schutz.",
@@ -10,7 +11,6 @@ export const metadata: Metadata = {
 };
 
 
-export const dynamic = "force-dynamic";
 const articles = [
   {
     slug: "kfz-versicherung-wechseln",
@@ -39,7 +39,6 @@ const articles = [
 ];
 
 
-export const dynamic = "force-dynamic";
 export default function BlogPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
@@ -55,7 +54,6 @@ export default function BlogPage() {
         </div>
 
 
-export const dynamic = "force-dynamic";
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "1.5rem" }}>
           {articles.map((article) => (
             <Link

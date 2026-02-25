@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Affiliate-Hinweis",
   description: "Transparenzhinweis zu Affiliate-Links auf Vergleichsheld24",

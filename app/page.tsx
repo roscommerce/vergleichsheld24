@@ -6,7 +6,7 @@ import AdSlot from "@/components/AdSlot";
 export const dynamic = "force-dynamic";
 
 
-export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.vergleichsheld24.de"),
   title: "Vergleichsheld24 – Versicherungen, Finanzen & Solar vergleichen",
@@ -15,7 +15,6 @@ export const metadata: Metadata = {
 };
 
 
-export const dynamic = "force-dynamic";
 function CategoryCard({ item, basePath }: { item: InsuranceItem; basePath: string }) {
   return (
     <Link href={`/${basePath}/${item.slug}`} style={{ textDecoration: "none", display: "block" }}>
@@ -35,25 +34,21 @@ function CategoryCard({ item, basePath }: { item: InsuranceItem; basePath: strin
 }
 
 
-export const dynamic = "force-dynamic";
 export default function HomePage() {
   const versicherungen = getByGroup("versicherungen");
   const finanzen = getByGroup("finanzen");
 
 
-export const dynamic = "force-dynamic";
   const featured = versicherungen.filter((v) =>
     ["kfz", "haftpflicht", "hausrat", "berufsunfaehigkeit", "pkv-vollversicherung", "rechtsschutz"].includes(v.slug)
   );
   const rest = versicherungen.filter((v) => !featured.find((f) => f.slug === v.slug));
 
 
-export const dynamic = "force-dynamic";
   return (
     <div className="mesh-bg">
 
 
-export const dynamic = "force-dynamic";
       {/* HERO */}
       <section style={{ paddingTop: "140px", paddingBottom: "80px", padding: "140px 1.5rem 80px", maxWidth: "1280px", margin: "0 auto", position: "relative" }}>
         <div style={{ position: "absolute", top: "60px", right: "5%", width: "500px", height: "500px", background: "radial-gradient(ellipse, rgba(14,165,233,0.07) 0%, transparent 70%)", pointerEvents: "none" }} />
@@ -92,14 +87,12 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* AD TOP */}
       <div style={{ maxWidth: "1280px", margin: "0 auto 3rem", padding: "0 1.5rem" }}>
         <AdSlot slot="1234567890" format="horizontal" style={{ height: "90px" }} />
       </div>
 
 
-export const dynamic = "force-dynamic";
       {/* VERSICHERUNGEN */}
       <section id="versicherungen" style={{ maxWidth: "1280px", margin: "0 auto 5rem", padding: "0 1.5rem" }}>
         <div className="animate-on-scroll" style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: "1rem", marginBottom: "2rem" }}>
@@ -113,7 +106,6 @@ export const dynamic = "force-dynamic";
         </div>
 
 
-export const dynamic = "force-dynamic";
         {/* Featured als große Karten */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))", gap: "1rem", marginBottom: "1.5rem" }}>
           {featured.map((item, i) => (
@@ -139,7 +131,6 @@ export const dynamic = "force-dynamic";
         </div>
 
 
-export const dynamic = "force-dynamic";
         {/* Rest als kompakte Liste */}
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "0.75rem" }}>
           {rest.map((item) => <CategoryCard key={item.slug} item={item} basePath="versicherungen" />)}
@@ -147,14 +138,12 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* AD MID */}
       <div style={{ maxWidth: "1280px", margin: "0 auto 3rem", padding: "0 1.5rem" }}>
         <AdSlot slot="0987654321" format="rectangle" style={{ height: "250px", maxWidth: "728px", margin: "0 auto" }} />
       </div>
 
 
-export const dynamic = "force-dynamic";
       {/* FINANZEN */}
       <section id="finanzen" style={{ maxWidth: "1280px", margin: "0 auto 5rem", padding: "0 1.5rem" }}>
         <div className="animate-on-scroll" style={{ marginBottom: "2rem" }}>
@@ -172,7 +161,6 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* SOLAR */}
       <section id="solar" style={{ maxWidth: "1280px", margin: "0 auto 5rem", padding: "0 1.5rem" }}>
         <div className="animate-on-scroll" style={{ background: "linear-gradient(135deg, rgba(249,115,22,0.1), rgba(251,191,36,0.06))", border: "1px solid rgba(249,115,22,0.2)", borderRadius: "1.5rem", padding: "clamp(2rem, 5vw, 3.5rem)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "2rem" }}>
@@ -194,7 +182,6 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* TRUST */}
       <section style={{ maxWidth: "1280px", margin: "0 auto 5rem", padding: "0 1.5rem" }}>
         <div className="animate-on-scroll" style={{ textAlign: "center", marginBottom: "2.5rem" }}>
@@ -219,7 +206,6 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* BOTTOM CTA */}
       <section style={{ maxWidth: "1280px", margin: "0 auto 5rem", padding: "0 1.5rem" }}>
         <div className="animate-on-scroll" style={{ background: "linear-gradient(135deg, rgba(14,165,233,0.12), rgba(14,165,233,0.04))", border: "1px solid rgba(14,165,233,0.2)", borderRadius: "1.5rem", padding: "clamp(2.5rem, 6vw, 4rem)", textAlign: "center", position: "relative", overflow: "hidden" }}>

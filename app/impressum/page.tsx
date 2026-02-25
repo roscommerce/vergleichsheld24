@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 
+export const dynamic = "force-dynamic";
+
 export const metadata: Metadata = {
   title: "Impressum",
   description: "Impressum von Vergleichsheld24 – Angaben gemäß § 5 TMG",

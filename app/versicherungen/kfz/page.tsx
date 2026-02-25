@@ -3,8 +3,9 @@ import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 import AdSlot from "@/components/AdSlot";
 
-
 export const dynamic = "force-dynamic";
+
+
 export const metadata: Metadata = {
   title: "Kfz-Versicherung vergleichen – bis zu 850 € sparen",
   description:
@@ -19,7 +20,6 @@ export const metadata: Metadata = {
 };
 
 
-export const dynamic = "force-dynamic";
 const faqItems = [
   {
     q: "Was ist der Unterschied zwischen Haftpflicht, Teilkasko und Vollkasko?",
@@ -40,7 +40,6 @@ const faqItems = [
 ];
 
 
-export const dynamic = "force-dynamic";
 export default function KfzPage() {
   return (
     <div
@@ -81,7 +80,6 @@ export default function KfzPage() {
       </div>
 
 
-export const dynamic = "force-dynamic";
       {/* Hero */}
       <section
         style={{
@@ -126,7 +124,6 @@ export const dynamic = "force-dynamic";
           </p>
 
 
-export const dynamic = "force-dynamic";
           {/* Feature pills */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
             {[
@@ -155,7 +152,6 @@ export const dynamic = "force-dynamic";
       </section>
 
 
-export const dynamic = "force-dynamic";
       {/* Main Grid */}
       <div
         style={{
@@ -177,7 +173,6 @@ export const dynamic = "force-dynamic";
           </div>
 
 
-export const dynamic = "force-dynamic";
           {/* SEO Content */}
           <div
             className="glass"
@@ -228,7 +223,6 @@ export const dynamic = "force-dynamic";
           </div>
 
 
-export const dynamic = "force-dynamic";
           {/* FAQ */}
           <div>
             <h2
@@ -288,7 +282,6 @@ export const dynamic = "force-dynamic";
         </div>
 
 
-export const dynamic = "force-dynamic";
         {/* Sidebar */}
         <div
           className="sidebar"
@@ -332,7 +325,6 @@ export const dynamic = "force-dynamic";
           </div>
 
 
-export const dynamic = "force-dynamic";
           {/* Ad Slot Sidebar */}
           <AdSlot
             slot="1122334455"
@@ -342,7 +334,6 @@ export const dynamic = "force-dynamic";
           />
 
 
-export const dynamic = "force-dynamic";
           {/* Other insurance links */}
           <div
             className="glass"
@@ -400,7 +391,6 @@ export const dynamic = "force-dynamic";
       </div>
 
 
-export const dynamic = "force-dynamic";
       {/* JSON-LD FAQ Schema */}
       <script
         type="application/ld+json"
@@ -421,7 +411,6 @@ export const dynamic = "force-dynamic";
       />
 
 
-export const dynamic = "force-dynamic";
       {/* JSON-LD BreadcrumbList */}
       <script
         type="application/ld+json"
@@ -448,7 +437,6 @@ export const dynamic = "force-dynamic";
       />
 
 
-export const dynamic = "force-dynamic";
       <style>{`
         @media (max-width: 900px) {
           .page-grid {
