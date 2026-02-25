@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Krankenversicherung vergleichen – PKV & GKV im Vergleich",
   description: "Private und gesetzliche Krankenversicherung vergleichen. Finde den besten Tarif für deine Gesundheit. 100+ Anbieter im direkten Vergleich.",
   alternates: { canonical: "https://www.vergleichsheld24.de/versicherungen/kranken" },
 };
 
+
+export const dynamic = "force-dynamic";
 export default function KrankenPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>

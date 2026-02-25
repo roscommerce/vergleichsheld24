@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Berufsunfähigkeitsversicherung vergleichen – BU günstig sichern",
   description: "BU-Versicherung vergleichen. Schütze dein Einkommen bei Berufsunfähigkeit. Jetzt die besten Tarife finden – kostenlos & unverbindlich.",
   alternates: { canonical: "https://www.vergleichsheld24.de/versicherungen/berufsunfaehigkeit" },
 };
 
+
+export const dynamic = "force-dynamic";
 export default function BerufsunfaehigkeitPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>

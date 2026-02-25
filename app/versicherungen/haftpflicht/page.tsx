@@ -3,6 +3,8 @@ import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 import AdSlot from "@/components/AdSlot";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Haftpflichtversicherung vergleichen – ab 2 € im Monat",
   description:
@@ -12,6 +14,8 @@ export const metadata: Metadata = {
   },
 };
 
+
+export const dynamic = "force-dynamic";
 export default function HaftpflichtPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>
@@ -23,6 +27,8 @@ export default function HaftpflichtPage() {
           <span style={{ color: "#7dd3fc" }}>Haftpflichtversicherung</span>
         </nav>
 
+
+export const dynamic = "force-dynamic";
         <div style={{ maxWidth: "700px", marginBottom: "2.5rem" }}>
           <div className="badge badge-orange" style={{ marginBottom: "1rem" }}>Pflichtschutz für jeden</div>
           <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(2rem, 5vw, 3.2rem)", color: "#fff", letterSpacing: "-0.03em", lineHeight: 1.1, marginBottom: "1.25rem" }}>
@@ -35,10 +41,14 @@ export default function HaftpflichtPage() {
           </p>
         </div>
 
+
+export const dynamic = "force-dynamic";
         <div style={{ marginBottom: "3rem" }}>
           <TarifcheckWidget type="haftpflicht" height={520} />
         </div>
 
+
+export const dynamic = "force-dynamic";
         <div className="glass" style={{ borderRadius: "1.25rem", padding: "2rem", marginBottom: "2rem" }}>
           <h2 style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.4rem", color: "#fff", marginBottom: "1rem" }}>
             Warum ist die private Haftpflicht so wichtig?
@@ -58,10 +68,14 @@ export default function HaftpflichtPage() {
           </div>
         </div>
 
+
+export const dynamic = "force-dynamic";
         <div style={{ marginBottom: "3rem" }}>
           <AdSlot slot="2233445566" format="horizontal" style={{ height: "90px" }} />
         </div>
 
+
+export const dynamic = "force-dynamic";
         <div style={{ textAlign: "center" }}>
           <Link href="/" className="btn-ghost">← Zurück zur Übersicht</Link>
         </div>

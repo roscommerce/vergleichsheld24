@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+
+export const dynamic = "force-dynamic";
 import { getBySlug } from "@/lib/categories";
 import CategoryPage from "@/components/CategoryPage";
 

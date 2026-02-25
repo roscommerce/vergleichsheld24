@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Rechtsschutzversicherung vergleichen – günstig & stark",
   description: "Rechtsschutzversicherung vergleichen. Schutz bei Streitigkeiten im Verkehr, Beruf, Miete & mehr. 100+ Anbieter im kostenlosen Vergleich.",
   alternates: { canonical: "https://www.vergleichsheld24.de/versicherungen/rechtsschutz" },
 };
 
+
+export const dynamic = "force-dynamic";
 export default function RechtsschutzPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>

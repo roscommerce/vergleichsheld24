@@ -2,12 +2,16 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Hausratversicherung vergleichen – günstig & schnell",
   description: "Hausratversicherung jetzt vergleichen. Schutz für dein Inventar bei Einbruch, Feuer, Wasser & mehr. 100+ Anbieter kostenlos vergleichen.",
   alternates: { canonical: "https://www.vergleichsheld24.de/versicherungen/hausrat" },
 };
 
+
+export const dynamic = "force-dynamic";
 export default function HausratPage() {
   return (
     <div style={{ background: "var(--dark)", minHeight: "100vh", paddingTop: "90px" }}>

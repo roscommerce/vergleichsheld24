@@ -3,6 +3,8 @@ import Link from "next/link";
 import TarifcheckWidget from "@/components/TarifcheckWidget";
 import AdSlot from "@/components/AdSlot";
 
+
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "Kfz-Versicherung vergleichen – bis zu 850 € sparen",
   description:
@@ -16,6 +18,8 @@ export const metadata: Metadata = {
   },
 };
 
+
+export const dynamic = "force-dynamic";
 const faqItems = [
   {
     q: "Was ist der Unterschied zwischen Haftpflicht, Teilkasko und Vollkasko?",
@@ -35,6 +39,8 @@ const faqItems = [
   },
 ];
 
+
+export const dynamic = "force-dynamic";
 export default function KfzPage() {
   return (
     <div
@@ -74,6 +80,8 @@ export default function KfzPage() {
         </nav>
       </div>
 
+
+export const dynamic = "force-dynamic";
       {/* Hero */}
       <section
         style={{
@@ -117,6 +125,8 @@ export default function KfzPage() {
             Kostenlos, unverbindlich und in wenigen Minuten zum besten Tarif.
           </p>
 
+
+export const dynamic = "force-dynamic";
           {/* Feature pills */}
           <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem" }}>
             {[
@@ -144,6 +154,8 @@ export default function KfzPage() {
         </div>
       </section>
 
+
+export const dynamic = "force-dynamic";
       {/* Main Grid */}
       <div
         style={{
@@ -164,6 +176,8 @@ export default function KfzPage() {
             <TarifcheckWidget type="kfz" height={560} />
           </div>
 
+
+export const dynamic = "force-dynamic";
           {/* SEO Content */}
           <div
             className="glass"
@@ -213,6 +227,8 @@ export default function KfzPage() {
             </div>
           </div>
 
+
+export const dynamic = "force-dynamic";
           {/* FAQ */}
           <div>
             <h2
@@ -271,6 +287,8 @@ export default function KfzPage() {
           </div>
         </div>
 
+
+export const dynamic = "force-dynamic";
         {/* Sidebar */}
         <div
           className="sidebar"
@@ -313,6 +331,8 @@ export default function KfzPage() {
             </Link>
           </div>
 
+
+export const dynamic = "force-dynamic";
           {/* Ad Slot Sidebar */}
           <AdSlot
             slot="1122334455"
@@ -321,6 +341,8 @@ export default function KfzPage() {
             label="Werbung"
           />
 
+
+export const dynamic = "force-dynamic";
           {/* Other insurance links */}
           <div
             className="glass"
@@ -377,6 +399,8 @@ export default function KfzPage() {
         </div>
       </div>
 
+
+export const dynamic = "force-dynamic";
       {/* JSON-LD FAQ Schema */}
       <script
         type="application/ld+json"
@@ -396,6 +420,8 @@ export default function KfzPage() {
         }}
       />
 
+
+export const dynamic = "force-dynamic";
       {/* JSON-LD BreadcrumbList */}
       <script
         type="application/ld+json"
@@ -421,6 +447,8 @@ export default function KfzPage() {
         }}
       />
 
+
+export const dynamic = "force-dynamic";
       <style>{`
         @media (max-width: 900px) {
           .page-grid {
