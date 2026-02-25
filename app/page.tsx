@@ -50,38 +50,39 @@ export default function HomePage() {
       <section style={{
         background: "linear-gradient(160deg, #eff6ff 0%, #f8fafc 60%, #f0fdf4 100%)",
         borderBottom: "1px solid #e2e8f0",
-        padding: "3rem 1.5rem",           /* kompakter als vorher */
+        padding: "2rem 1.5rem 2.5rem",
         textAlign: "center",
         width: "100%",
       }}>
-        <div style={{ maxWidth: "680px", margin: "0 auto" }}>
-          <div className="badge badge-blue" style={{ marginBottom: "1rem", display: "inline-flex" }}>
+        <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+          <div className="badge badge-blue" style={{ marginBottom: "0.875rem", display: "inline-flex" }}>
             ✦ Versicherungen · Finanzen · Solaranlagen
           </div>
-          <h1 style={{
-            fontFamily: "var(--font-syne)", fontWeight: 800,
-            fontSize: "clamp(2rem, 5vw, 3.2rem)",   /* etwas kleiner = weniger hoch */
-            color: "#0f172a", letterSpacing: "-0.03em", lineHeight: 1.15,
-            marginBottom: "1rem",
-          }}>
-            Clever vergleichen —{" "}
-            <span className="gradient-text">kostenlos & unabhängig.</span>
+
+          {/* Titel: schwarz oben, blau darunter – getrennte Zeilen */}
+          <h1 style={{ fontFamily: "var(--font-syne)", fontWeight: 800, fontSize: "clamp(1.9rem, 4.5vw, 2.8rem)", letterSpacing: "-0.03em", lineHeight: 1.15, marginBottom: "0.875rem" }}>
+            <span style={{ color: "#0f172a", display: "block" }}>Clever vergleichen —</span>
+            <span className="gradient-text" style={{ display: "block" }}>kostenlos & unabhängig.</span>
           </h1>
-          <p style={{ fontSize: "1rem", color: "var(--text-muted)", lineHeight: 1.6, marginBottom: "1.5rem" }}>
+
+          <p style={{ fontSize: "0.95rem", color: "var(--text-muted)", lineHeight: 1.6, marginBottom: "1.25rem" }}>
             Über <strong style={{ color: "#0f172a" }}>100 Anbieter</strong> im direkten Vergleich.
             Finde in wenigen Minuten den besten Tarif.
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", justifyContent: "center", marginBottom: "2rem" }}>
-            <Link href="/versicherungen/kfz" className="btn-primary">🚗 Kfz vergleichen</Link>
-            <Link href="/solar" className="btn-accent">☀️ Solaranlage vergleichen</Link>
-            <Link href="#versicherungen" className="btn-ghost">Alle Vergleiche</Link>
+
+          {/* 3 Haupt-Kategorien als Buttons */}
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.625rem", justifyContent: "center", marginBottom: "1.75rem" }}>
+            <Link href="#versicherungen" className="btn-primary">🛡️ Versicherungen</Link>
+            <Link href="#finanzen" className="btn-ghost">💶 Finanzen</Link>
+            <Link href="#solar" className="btn-ghost">☀️ Solaranlagen</Link>
           </div>
+
           {/* Stats */}
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "2rem", justifyContent: "center" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "1.75rem", justifyContent: "center" }}>
             {[{ val: "100+", label: "Anbieter" }, { val: "26", label: "Produkte" }, { val: "100%", label: "kostenlos" }, { val: "0 €", label: "Mehrkosten" }].map((s) => (
               <div key={s.label} style={{ textAlign: "center" }}>
-                <span style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.4rem", color: "var(--primary)", display: "block" }}>{s.val}</span>
-                <span style={{ fontSize: "0.78rem", color: "var(--text-muted)" }}>{s.label}</span>
+                <span style={{ fontFamily: "var(--font-syne)", fontWeight: 700, fontSize: "1.3rem", color: "var(--primary)", display: "block" }}>{s.val}</span>
+                <span style={{ fontSize: "0.75rem", color: "var(--text-muted)" }}>{s.label}</span>
               </div>
             ))}
           </div>
