@@ -29,7 +29,7 @@ const NAV = [
   {
     label: "Solaranlage",
     items: [
-      { href: "/solar/solar", label: "☀️ Solaranlage vergleichen" },
+      { href: "/solar", label: "☀️ Solaranlage vergleichen" },
     ],
   },
 ];
@@ -128,7 +128,7 @@ export default function Header() {
 
         {/* CTA + Mobile */}
         <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-          <Link href="/versicherungen/kfz" className="btn-primary desktop-cta" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }}>
+          <Link href="/#versicherungen" className="btn-primary desktop-cta" style={{ fontSize: "0.85rem", padding: "0.6rem 1.25rem" }}>
             Jetzt vergleichen
           </Link>
           <button

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getBySlug } from "@/lib/categories";
-import CategoryPage from "@/components/CategoryPage";
+import KfzPage from "./KfzPage";
 
 export const dynamic = "force-dynamic";
 
@@ -17,5 +17,5 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  return <CategoryPage item={item} />;
+  return <KfzPage item={item} />;
 }

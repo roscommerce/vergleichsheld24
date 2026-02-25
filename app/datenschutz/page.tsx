@@ -24,7 +24,7 @@ function Section({ title, children }: { title: string; children: React.ReactNode
 function SubSection({ title, children }: { title: string; children: React.ReactNode }) {
   return (
     <div style={{ marginTop: "1.25rem" }}>
-      <h3 style={{ color: "rgba(255,255,255,0.8)", fontWeight: 600, fontSize: "0.9rem", marginBottom: "0.5rem" }}>{title}</h3>
+      <h3 style={{ color: "#0f172a", fontWeight: 600, fontSize: "0.9rem", marginBottom: "0.5rem" }}>{title}</h3>
       <div>{children}</div>
     </div>
   );
@@ -43,7 +43,7 @@ export default function DatenschutzPage() {
 
         <Section title="1. Verantwortlicher">
           <p>Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) ist:</p>
-          <div style={{ marginTop: "0.75rem", padding: "1rem 1.25rem", background: "#f8fafc", border: "1px solid rgba(255,255,255,0.08)", borderRadius: "12px" }}>
+          <div style={{ marginTop: "0.75rem", padding: "1rem 1.25rem", background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "12px" }}>
             <p style={{ fontWeight: 600, color: "#0f172a" }}>Sven Rosenthal</p>
             <p>In der Landwehr 21</p>
             <p>34376 Immenhausen OT Holzhausen</p>
@@ -60,12 +60,12 @@ export default function DatenschutzPage() {
         <Section title="2. Deine Rechte als betroffene Person">
           <p>Du hast gemäß DSGVO folgende Rechte gegenüber uns als Verantwortlichem:</p>
           <ul style={{ marginTop: "0.75rem", paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Auskunftsrecht</strong> (Art. 15 DSGVO): Du kannst Auskunft über deine bei uns gespeicherten Daten verlangen.</li>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Berichtigungsrecht</strong> (Art. 16 DSGVO): Unrichtige Daten können berichtigt werden.</li>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Löschungsrecht</strong> (Art. 17 DSGVO): Unter bestimmten Voraussetzungen kannst du die Löschung deiner Daten verlangen.</li>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Einschränkungsrecht</strong> (Art. 18 DSGVO): Du kannst die Einschränkung der Verarbeitung verlangen.</li>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Widerspruchsrecht</strong> (Art. 21 DSGVO): Du kannst der Datenverarbeitung widersprechen.</li>
-            <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Beschwerderecht</strong> (Art. 77 DSGVO): Du hast das Recht, dich bei einer Aufsichtsbehörde zu beschweren.</li>
+            <li><strong style={{ color: "#0f172a" }}>Auskunftsrecht</strong> (Art. 15 DSGVO): Du kannst Auskunft über deine bei uns gespeicherten Daten verlangen.</li>
+            <li><strong style={{ color: "#0f172a" }}>Berichtigungsrecht</strong> (Art. 16 DSGVO): Unrichtige Daten können berichtigt werden.</li>
+            <li><strong style={{ color: "#0f172a" }}>Löschungsrecht</strong> (Art. 17 DSGVO): Unter bestimmten Voraussetzungen kannst du die Löschung deiner Daten verlangen.</li>
+            <li><strong style={{ color: "#0f172a" }}>Einschränkungsrecht</strong> (Art. 18 DSGVO): Du kannst die Einschränkung der Verarbeitung verlangen.</li>
+            <li><strong style={{ color: "#0f172a" }}>Widerspruchsrecht</strong> (Art. 21 DSGVO): Du kannst der Datenverarbeitung widersprechen.</li>
+            <li><strong style={{ color: "#0f172a" }}>Beschwerderecht</strong> (Art. 77 DSGVO): Du hast das Recht, dich bei einer Aufsichtsbehörde zu beschweren.</li>
           </ul>
           <p style={{ marginTop: "1rem" }}>
             Zuständige Aufsichtsbehörde: Der Hessische Beauftragte für Datenschutz und Informationsfreiheit,
@@ -106,9 +106,9 @@ export default function DatenschutzPage() {
               deinem Gerät speichert. Wir unterscheiden zwischen:
             </p>
             <ul style={{ marginTop: "0.5rem", paddingLeft: "1.25rem", display: "flex", flexDirection: "column", gap: "0.25rem" }}>
-              <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Technisch notwendige Cookies:</strong> Erforderlich für den Betrieb der Website (keine Einwilligung erforderlich)</li>
-              <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Analyse-Cookies:</strong> Nur mit deiner Einwilligung (Google Analytics)</li>
-              <li><strong style={{ color: "rgba(255,255,255,0.8)" }}>Marketing-Cookies:</strong> Nur mit deiner Einwilligung (Google AdSense)</li>
+              <li><strong style={{ color: "#0f172a" }}>Technisch notwendige Cookies:</strong> Erforderlich für den Betrieb der Website (keine Einwilligung erforderlich)</li>
+              <li><strong style={{ color: "#0f172a" }}>Analyse-Cookies:</strong> Nur mit deiner Einwilligung (Google Analytics)</li>
+              <li><strong style={{ color: "#0f172a" }}>Marketing-Cookies:</strong> Nur mit deiner Einwilligung (Google AdSense)</li>
             </ul>
             <p style={{ marginTop: "0.75rem" }}>
               Du kannst deine Cookie-Einstellungen jederzeit über den{" "}
