@@ -95,7 +95,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
         />
 
@@ -122,13 +122,15 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "WebSite",
               name: "Vergleichsheld24",
               url: "https://www.vergleichsheld24.de",
-              logo: "https://www.vergleichsheld24.de/logo.png",
-              description:
-                "Kostenloser Versicherungsvergleich für Kfz, Haftpflicht, Hausrat und mehr.",
-              sameAs: [],
+              description: "Kostenloser Vergleich von Versicherungen, Finanzprodukten und Solaranlagen. Über 100 Anbieter im direkten Vergleich.",
+              publisher: {
+                "@type": "Organization",
+                name: "Vergleichsheld24",
+                url: "https://www.vergleichsheld24.de",
+              },
             }),
           }}
         />
