@@ -11,7 +11,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ? `${baseUrl}/solar`
       : `${baseUrl}/${c.group === "finanzen" ? "finanzen" : "versicherungen"}/${c.slug}`;
     return { url, lastModified, changeFrequency: "weekly" as const, priority: 0.85 };
-  });
+  }).filter((p) =>
+    // Redirect-Seiten aus Sitemap ausschließen
+    !p.url.includes("/versicherungen/kranken") &&
+    !p.url.includes("/solar/solar")
+  );
 
   return [
     { url: baseUrl, lastModified, changeFrequency: "weekly" as const, priority: 1.0 },
