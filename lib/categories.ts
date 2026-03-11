@@ -46,7 +46,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Günstige Motorradversicherung für alle Typen – Chopper, Sportbike oder Roller. Jetzt Tarife vergleichen.",
     shortDesc: "Für alle Motorrad-Typen",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=motorradversicherung",
     tarifcheckType: "motorrad",
   },
 
@@ -60,7 +60,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Private Altersvorsorge für später: Finde die beste Rentenversicherung und sichere deinen Ruhestand ab.",
     shortDesc: "Private Altersvorsorge",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=rentenversicherung",
     tarifcheckType: "rente",
   },
   {
@@ -72,7 +72,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Wichtig",
     badgeType: "orange",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=berufsunfaehigkeitsversicherung",
     tarifcheckType: "berufsunfaehigkeit",
   },
   {
@@ -82,7 +82,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Schütze deine Familie finanziell für den Ernstfall. Kapital- oder Risikolebensversicherung – wir zeigen dir den Unterschied.",
     shortDesc: "Schutz für die Familie",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=lebensversicherung",
     tarifcheckType: "leben",
   },
   {
@@ -92,7 +92,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Absicherung rund um die Uhr – auch in der Freizeit. Die Unfallversicherung zahlt bei dauerhaften Unfallfolgen.",
     shortDesc: "24h Schutz bei Unfällen",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=unfallversicherung",
     tarifcheckType: "unfall",
   },
   {
@@ -104,7 +104,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Staatliche Förderung",
     badgeType: "green",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=riester-rente",
     tarifcheckType: "riester",
   },
   {
@@ -115,7 +115,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     shortDesc: "Günstig & effektiv",
     avgSaving: "300 €",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=risikolebensversicherung",
     tarifcheckType: "risikoleben",
   },
   {
@@ -127,7 +127,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Steuervorteile",
     badgeType: "green",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=ruerup-rente",
     tarifcheckType: "ruerup",
   },
   {
@@ -137,7 +137,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Die gesetzliche Pflege reicht oft nicht aus. Mit einer Pflegezusatz sicherst du dir im Alter die nötige Versorgung.",
     shortDesc: "Ergänzt gesetzliche Pflege",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=pflegezusatzversicherung",
     tarifcheckType: "pflege",
   },
 
@@ -154,7 +154,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badgeType: "blue",
     avgSaving: "200 €",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=private-krankenversicherung",
     tarifcheckType: "pkv",
   },
   {
@@ -166,7 +166,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Nur für Beamte",
     badgeType: "blue",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=private-krankenversicherung",
     tarifcheckType: "pkv-beamte",
   },
   {
@@ -176,7 +176,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Ergänze deine gesetzliche Krankenversicherung: Zahnersatz, Brille, Heilpraktiker und mehr – zum günstigen Monatsbeitrag.",
     shortDesc: "Ergänzt die GKV optimal",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=krankenzusatzversicherung",
     tarifcheckType: "krankenzusatz",
   },
   {
@@ -188,7 +188,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Studentenrabatt",
     badgeType: "green",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=private-krankenversicherung",
     tarifcheckType: "pkv-studenten",
   },
   {
@@ -198,7 +198,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Private Krankenversicherung für Personen über 55 Jahre. Wir zeigen dir die besten Tarife für deinen Bedarf.",
     shortDesc: "Optimal ab 55 Jahren",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=private-krankenversicherung",
     tarifcheckType: "pkv-senior",
   },
 
@@ -215,7 +215,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badgeType: "orange",
     avgSaving: "120 €",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=hundekrankenversicherung",
     tarifcheckType: "haftpflicht",
   },
   {
@@ -226,7 +226,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     shortDesc: "Schutz für dein Zuhause",
     avgSaving: "85 €",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=haftpflichtversicherung",
     tarifcheckType: "hausrat",
   },
   {
@@ -236,7 +236,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Als Tierbesitzer haftest du für Schäden, die dein Tier verursacht. Pflicht für Hundehalter in vielen Bundesländern.",
     shortDesc: "Haftpflicht für Tierhalter",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=hausratversicherung",
     tarifcheckType: "tierhalter",
   },
   {
@@ -246,7 +246,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Tierarztkosten können schnell in die Tausende gehen. Mit der Hundekrankenversicherung bist du auf der sicheren Seite.",
     shortDesc: "Für deinen Hund",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=hundeversicherung",
     tarifcheckType: "hundekranken",
   },
   {
@@ -258,7 +258,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Für Eigenheimbesitzer",
     badgeType: "blue",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=wohngebaeudeversicherung",
     tarifcheckType: "wohngebaeude",
   },
   {
@@ -268,7 +268,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Haftpflichtschutz für Haus- und Grundstücksbesitzer. Schützt vor Ansprüchen von Mietern und Passanten.",
     shortDesc: "Haftpflicht für Eigentümer",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=grundbesitzerhaftpflicht",
     tarifcheckType: "haus-grundbesitz",
   },
   {
@@ -279,7 +279,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     shortDesc: "Schutz vor Gerichtskosten",
     avgSaving: "95 €",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=rechtsschutzversicherung",
     tarifcheckType: "rechtsschutz",
   },
   {
@@ -291,7 +291,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Für Unternehmen",
     badgeType: "blue",
     group: "versicherungen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=firmenversicherung",
     tarifcheckType: "firmen",
   },
 
@@ -307,7 +307,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Kostenlos",
     badgeType: "green",
     group: "finanzen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=girokonto",
     tarifcheckType: "girokonto",
   },
   {
@@ -319,7 +319,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "Jetzt Zinsen sichern",
     badgeType: "orange",
     group: "finanzen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=baufinanzierung",
     tarifcheckType: "baufinanzierung",
   },
   {
@@ -329,7 +329,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     description: "Ratenkredit oder Sofortkredit – finde den günstigsten Kredit für deine Bedürfnisse. Schnell, einfach, online.",
     shortDesc: "Günstige Ratenkredite",
     group: "finanzen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=kredit",
     tarifcheckType: "kredit",
   },
   {
@@ -341,7 +341,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "0 € Jahresgebühr",
     badgeType: "green",
     group: "finanzen",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=kreditkarten",
     tarifcheckType: "kreditkarte",
   },
 
@@ -357,7 +357,7 @@ export const ALL_CATEGORIES: InsuranceItem[] = [
     badge: "NEU",
     badgeType: "orange",
     group: "solar",
-    tarifcheckUrl: "PENDING",
+    tarifcheckUrl: "https://a.partner-versicherung.de/click.php?partner_id=191158&ad_id=15&deep=solaranlage",
     tarifcheckType: "solar",
   },
 ];
