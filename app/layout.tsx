@@ -94,10 +94,20 @@ export default function RootLayout({
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        {/* Non-blocking font load: media=print trick + onload swap */}
         <link
           href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
           rel="stylesheet"
+          media="print"
+          // @ts-ignore
+          onLoad="this.media='all'"
         />
+        <noscript>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+          />
+        </noscript>
 
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />

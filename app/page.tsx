@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { getByGroup, InsuranceItem } from "@/lib/categories";
 
-export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.vergleichsheld24.de"),

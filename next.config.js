@@ -1,13 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Verhindert Static Generation Timeout bei vielen Seiten
   staticPageGenerationTimeout: 180,
 
-  // Netlify braucht kein standalone output
-  // output: 'standalone', // NICHT aktivieren für Netlify
-
   experimental: {
-    // Erhöht Worker-Stabilität beim Build
     workerThreads: false,
     cpus: 1,
   },
@@ -15,6 +10,30 @@ const nextConfig = {
   images: {
     remotePatterns: [],
     unoptimized: true,
+  },
+
+  // Compress responses
+  compress: true,
+
+  // Security + performance headers
+  async headers() {
+    return [
+      {
+        source: "/(.*)",
+        headers: [
+          { key: "X-Content-Type-Options", value: "nosniff" },
+          { key: "X-Frame-Options", value: "DENY" },
+          { key: "Referrer-Policy", value: "strict-origin-when-cross-origin" },
+        ],
+      },
+      {
+        // Cache static assets aggressively
+        source: "/_next/static/(.*)",
+        headers: [
+          { key: "Cache-Control", value: "public, max-age=31536000, immutable" },
+        ],
+      },
+    ];
   },
 };
 

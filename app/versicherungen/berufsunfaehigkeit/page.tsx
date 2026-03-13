@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { getBySlug } from "@/lib/categories";
 import CategoryPage from "@/components/CategoryPage";
 
-export const dynamic = "force-dynamic";
 
 const item = getBySlug("berufsunfaehigkeit")!;
 
